@@ -10,12 +10,16 @@
 <h1  pantalla="atributo">
     clase DOM javascript
 </h1>
+<form id="form">
+    <input id="dato0" placeholder="escribe algo aqui" type="texto" >
+    <input onchange="console.log(`cambio el input`)" id="dato1" placeholder="escribe algo aqui" type="texto" >
+    <button id="btnCalcular">Calcular</button>
     
-<input id="dato0" placeholder="escribe algo aqui" type="texto" >
-<input onchange="console.log(`cambio el input`)" id="dato1" placeholder="escribe algo aqui" type="texto" >
-<button id="btnCalcular" onclick="btnOnclik()">Calcular</button>
+    <!-- se elimino el el onclick se pondra en js-->
+    
+    <p id="resultado"></p>
 
-<p id="resultado"></p>
+</form>
 <script src="./scrit.js"></script>
 </body>
 </html>
